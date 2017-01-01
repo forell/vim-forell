@@ -10,6 +10,8 @@ hi CursorLineNr      guifg=#b00b13                 gui=bold cterm=bold
 hi CursorColumn                    guibg=#101112
 hi ColorColumn                     guibg=#101112
 hi VertSplit         guifg=#101112 guibg=#101112
+hi Search            guifg=#c4c4c4 guibg=#b00b13
+hi Sneak             guifg=#c4c4c4 guibg=#b00b13
 
 hi FoldColumn        guifg=#2d3638 guibg=#101112
 hi Folded            guifg=#b00b13 guibg=#101112

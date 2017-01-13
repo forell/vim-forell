@@ -4,7 +4,11 @@ if exists("syntax_on")
 endif
 let colors_name = "Forell"
 
-hi Normal            guifg=#c4c4c4 guibg=#151517
+if has("gui_running")
+    hi Normal guibg=#151517
+endif
+
+hi Normal            guifg=#c4c4c4
 hi CursorLine                      guibg=#101112   gui=NONE cterm=NONE
 hi CursorLineNr      guifg=#b00b13                 gui=bold cterm=bold
 hi CursorColumn                    guibg=#101112
@@ -91,7 +95,7 @@ hi StatusLineNC guifg=#101112   guibg=#c4c4c4
 
 " spellcheck
 if has("spell")
-    hi SpellBad                                 gui=underline cterm=underline
+    hi SpellBad                                 gui=undercurl cterm=underline
 endif
 
 set background=dark

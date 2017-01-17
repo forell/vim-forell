@@ -58,6 +58,7 @@ hi Visual                          guibg=#1d1d21
 " err
 hi Error             guifg=#b00b13 guibg=#19191c     gui=bold cterm=bold
 hi ErrorMsg          guifg=#b00b13 guibg=#151517     gui=bold cterm=bold
+hi WarningMsg        guifg=#b00b13 guibg=NONE        gui=bold cterm=bold
 
 " sh
 hi shCmdSubRegion    guifg=NONE
@@ -97,5 +98,8 @@ hi StatusLineNC guifg=#101112   guibg=#c4c4c4
 if has("spell")
     hi SpellBad                                 gui=undercurl cterm=underline
 endif
+
+" files
+hi Directory    guifg=#819599                   gui=bold cterm=bold
 
 set background=dark

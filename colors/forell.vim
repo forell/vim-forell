@@ -43,6 +43,7 @@ hi NonText           guifg=#151517 guibg=#151517
 hi SignColumn        guifg=#A6E22E guibg=#19191c
 hi MatchParen        guifg=#b00b13 guibg=#151517     gui=bold cterm=bold
 hi Identifier        guifg=#afa071
+hi SpecialKey        guifg=#c4c4c4
 
 hi Todo              guifg=#fdba00 guibg=NONE        gui=bold cterm=bold
 hi Title             guifg=#fdba00 guibg=NONE        gui=bold cterm=bold
@@ -96,7 +97,7 @@ hi StatusLineNC guifg=#101112   guibg=#c4c4c4
 
 " spellcheck
 if has("spell")
-    hi SpellBad                                 gui=undercurl cterm=underline
+    hi SpellBad guifg=#c4c4c4   guibg=#b00b13   gui=none cterm=none
 endif
 
 " files

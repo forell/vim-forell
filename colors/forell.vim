@@ -97,7 +97,7 @@ hi StatusLineNC guifg=#101112   guibg=#c4c4c4
 
 " spellcheck
 if has("spell")
-    hi SpellBad guifg=#c4c4c4   guibg=#b00b13   gui=none cterm=none
+    hi SpellBad guifg=#b00b13   guibg=NONE      gui=underline cterm=underline
 endif
 
 " files

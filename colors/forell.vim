@@ -37,7 +37,7 @@ hi StorageClass      guifg=#e64904                   gui=bold cterm=bold
 hi Constant          guifg=#e64904                   gui=bold cterm=bold
 hi PreProc           guifg=#a6b0bf
 hi cSpecialCharacter guifg=#fdba00
-hi Special           guifg=#fdba00
+hi Special           guifg=#707880
 hi LineNr            guifg=#465457 guibg=#19191c
 hi NonText           guifg=#151517 guibg=#151517
 hi SignColumn        guifg=#A6E22E guibg=#19191c

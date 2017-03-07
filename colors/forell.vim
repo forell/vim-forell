@@ -69,6 +69,9 @@ hi shCmdSubRegion   guifg=NONE
 hi shVariable       guifg=#819599
 hi shFunction       guifg=#819599
 
+" vim
+hi vimGroup         guifg=#819599
+
 " rust
 hi rustModPathSep   guifg=#707880
 

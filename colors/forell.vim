@@ -31,7 +31,7 @@ hi Statement        guifg=#b00b13               ctermfg=124               gui=bo
 hi Label            guifg=#e64904
 hi Access           guifg=#e64904                                         gui=bold cterm=bold
 hi cppAccess        guifg=#e64904                                         gui=bold cterm=bold
-hi Type             guifg=#819599
+hi Type             guifg=#b00b13               ctermfg=124               gui=bold cterm=bold
 hi Function         guifg=#819599
 hi StorageClass     guifg=#e64904                                         gui=bold cterm=bold
 hi Constant         guifg=#e64904                                         gui=bold cterm=bold
@@ -60,6 +60,9 @@ hi Visual                         guibg=#1d1d21              ctermbg=235
 hi Error            guifg=#b00b13 guibg=#19191c ctermfg=124               gui=bold cterm=bold
 hi ErrorMsg         guifg=#b00b13 guibg=#151517 ctermfg=124               gui=bold cterm=bold
 hi WarningMsg       guifg=#b00b13 guibg=NONE    ctermfg=124               gui=bold cterm=bold
+
+" cpp
+hi cppSTLnamespace  guifg=NONE    guibg=NONE                              gui=bold cterm=bold
 
 " sh
 hi shCmdSubRegion   guifg=NONE

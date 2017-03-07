@@ -72,6 +72,8 @@ hi shFunction       guifg=#819599
 " vim
 hi vimGroup         guifg=#819599
 hi vimAutoEvent     guifg=#819599
+hi vimSpecial       guifg=#819599
+hi vimHiTerm        guifg=#819599
 
 " rust
 hi rustModPathSep   guifg=#707880
